@@ -27,7 +27,7 @@ An _aesthetically pleasing_ theme for Visual Studio Code.
 ---
 
 ## Disabling italics
-If you would like to disable italics, you can past the following into your [settings.json](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations) file:
+If you would like to disable italics, you can add the following to your [settings.json](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations) file:
 ```json
 "editor.tokenColorCustomizations": {
         "[Seabrook Dark]": {
