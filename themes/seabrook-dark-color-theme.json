@@ -138,7 +138,7 @@
 			"gitDecoration.submoduleResourceForeground": "#118AB2",
 			"gitDecoration.untrackedResourceForeground": "#06D6A0",
 			
-			"icon.foreground": "#DEE2E6",
+			"icon.foreground": "#fff",
 
 			"input.background": "#212529",
 			"input.border": "#495057",
@@ -151,10 +151,13 @@
 
 			"inputValidation.errorBackground": "#EF476F",
 			"inputValidation.errorBorder": "#EF476F",
+            "inputValidation.errorForeground": "#212529",
 			"inputValidation.infoBackground": "#118AB2",
 			"inputValidation.infoBorder": "#118AB2",
+            "inputValidation.infoForeground": "#212529",
 			"inputValidation.warningBackground": "#FFD166",
 			"inputValidation.warningBorder": "#FFD166",
+            "inputValidation.warningForeground": "#212529",
 
 			"keybindingLabel.background": "#6C757D",
 			"keybindingLabel.border": "#6C757D",
