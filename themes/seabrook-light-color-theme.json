@@ -338,6 +338,8 @@
 			"terminal.ansiYellow": "#E49A2B",
 			"terminal.border": "#212529",
 			"terminal.foreground": "#212529",
+            "terminal.selectionBackground": "#6C757D",
+            "terminal.selectionForeground": "#DEE2E6",
 			
 			"terminalCursor.background": "#DEE2E6",
     		"terminalCursor.foreground": "#6C757D",
