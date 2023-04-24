@@ -14,23 +14,38 @@ An _aesthetically pleasing_ theme for Visual Studio Code.
 
 <br />
 
-## __Light mode coming soon!__
-
-<br />
-
 </div>
 
-### Seabrook Dark 
+### Seabrook Dark
 
 ![Screenshot 1](static/screenshot1.png)
+
+### Seabrook Light
+
+![Screenshot 2](static/screenshot2.png)
 
 ---
 
 ## Disabling italics
+
 If you would like to disable italics, you can add the following to your [settings.json](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations) file:
+
 ```json
 "editor.tokenColorCustomizations": {
         "[Seabrook Dark]": {
+            "textMateRules": [{
+                "scope": [
+                    "comment",
+                    "invalid",
+                    "keyword",
+                    "entity.other.attribute-name"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }]
+        },
+        "[Seabrook Light]": {
             "textMateRules": [{
                 "scope": [
                     "comment",

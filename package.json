@@ -2,7 +2,7 @@
     "name": "seabrook",
     "displayName": "Seabrook",
     "description": "An aesthetically pleasing theme for Visual Studio Code.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "sortbyfirstname",
     "license": "MIT",
     "keywords": [
@@ -11,6 +11,7 @@
       "clean",
       "pastel",
       "dark",
+      "light",
       "minimal"
     ],
     "engines": {
@@ -25,6 +26,11 @@
           "label": "Seabrook Dark",
           "uiTheme": "vs-dark",
           "path": "./themes/seabrook-dark-color-theme.json"
+        },
+        {
+            "label": "Seabrook Light",
+            "uiTheme": "vs",
+            "path": "./themes/seabrook-light-color-theme.json"
         }
       ]
     },

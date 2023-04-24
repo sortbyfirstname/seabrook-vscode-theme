@@ -4,6 +4,12 @@ All notable changes to the "seabrook" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.0.4] - 2023-04-24
 
-- Initial release
+### Added
+
+-   Seabrook Light theme
+
+### Fixed
+
+-   Update input validation foreground color in Seabrook Dark theme for all states to fix poor legibility
